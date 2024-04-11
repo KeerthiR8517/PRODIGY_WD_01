@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2px;
+    scroll-behavior: smooth;
+    font-family: 'poppins',sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 120px 5px;
+    background: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: 0.25;
+}
+header .logo img{
+    width:40px;
+    height: 40px;
+}
+header .logo img:hover{
+    width:50px;
+    height: 40px;
+}
+nav a{
+    font-size: 18px;
+    color:bisque;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+nav a:hover{
+    color:rgb(36, 8, 8);
+    text-shadow: 4px 4px 8px rgb(36, 8, 8);
+}
+section{
+    min-height:100vh;
+    align-items: center;
+    background:rgb(36, 8, 8);;
+   padding: 60px 10%;
+}
+.home{
+   width: 100%;
+   min-height: 100vh;
+   flex-wrap: wrap;
+   top:130px;
+   justify-content: space-between;
+}
+.home .enjoy{
+    margin-top: 100px;
+}
+
+.home .enjoy h2{
+    font-size: 30px;
+    left:20px;
+    font-weight: 600;
+    color:antiquewhite;
+    font-family: Algerian;
+    margin-bottom: 50px;
+   
+   
+}
+.home .coffee img{
+   float:right;
+   margin-top: -100px;
+   
+}
+.home .p1{
+   
+    color:orange;
+    width: 650;
+    text-align: justify;
+    max-width: 500px;
+    line-height: 22px;
+    
+    
+}
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding:8px 20px; 
+    background-color:rgb(161, 105, 2);;
+    border-radius: 40px;
+    text-decoration: none;
+    color:bisque;
+    
+}
+.btn:hover{
+    background-color:bisque;
+    color:red;
+    font-size:20px;
+}
+.menu{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    top:130px;
+    justify-content: space-between;
+ }
+.menu .heading h1{
+    align-items: center;
+    text-align: center;
+    color:orange;
+    font-size: 35px;
+     margin-left:350px;
+     margin-top: 10px;
+    
+}
+.menu .heading span{
+    font-size:large;
+    color:orange;
+    margin-left: 450px;
+}
+
+.img1 img{
+    padding: 10px 30px;
+}
+.img1 img:hover{
+    width:250px;
+    height:250px;
+}
+.img2 img{
+    width:230px;
+    height:200px;
+    padding: 10px 30px;
+}
+.img2 img:hover{
+    width:250px;
+    height:250px;
+}
+.img3 img{
+    width:230px;
+    height:200px;
+    padding: 10px 30px;
+}
+.img3 img:hover{
+    width:250px;
+    height:250px;
+}
+.menu .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px; 
+    margin-top:50px; 
+}
+.menu .box-container .box{
+    flex: 1 1 10px;
+    box-shadow: 0.5px 1.5px orange;
+    border-radius: 0.5px;
+    border:1px solid brown;
+    position: relative;
+    background-color:bisque;
+    padding: 0px 20px 0px 20px;
+
+}
+.menu .box-container .box .content{
+color:brown;
+font-size: large;
+}
+.about{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    top:130px;
+    justify-content: space-between;
+ }
+ .about .about-test{
+  
+    color:antiquewhite;
+    width: 650;
+    text-align: justify;
+   margin-top: -250px;
+    max-width: 500px;
+    line-height: 22px;
+    margin-left: 400px;
+
+   
+ }
+ .about  h1{
+    color:orange;
+    font-size:40px;
+    text-align: center;
+    margin-right: 100px; 
+   
+ }
+.about .about-test h3{
+    font-size:30px;
+    margin-bottom: 20px;
+}
+ .about .abouting img{  
+    margin-bottom: 100px;
+}
+.contact{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    top:130px;
+    justify-content: space-between;
+    
+ }
+ .contact h1{
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+ }
+ .contact .form h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:orange;
+ }
+
+ .form-group{
+    margin-bottom: 20px;
+   
+ }
+ input{
+    width:40%;
+    padding: 12px;
+   border-radius: 8px;
+   border: none;
+ }
+ .contact .last{
+    float: right;
+ }
+
+ .social-icons ul{
+    position: absolute;
+    top: 80%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+  display: flex;
+
+}
+.social-icons ul li{
+    list-style: none;
+    margin:0 15px;
+}
+.social-icons ul li .fab{
+    color:antiquewhite;
+    font-size: 25px;
+    line-height: 60px;
+}
+.social-icons ul li .fab:hover{
+    font-size: 40px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding:8px 20px; 
+    background-color:rgb(161, 105, 2);;
+    border-radius: 40px;
+    text-decoration: none;
+    color:bisque;
+    
+}
+.btn:hover{
+    background-color:bisque;
+    color:red;
+    font-size:20px;
+}
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
